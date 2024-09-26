@@ -5,7 +5,6 @@ attempts = 0
 while True:
     guess = int(input('Enter the number:'))
     attempts += 1
-
     if guess == secret_number:
         print (f'Right! You guessed the number in {attempts} tries')
         break
